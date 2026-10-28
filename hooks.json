@@ -1,0 +1,12 @@
+{
+  "context-guard": {
+    "enabled": true,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python scripts/context_hook.py",
+        "timeout": 10
+      }
+    ]
+  }
+}

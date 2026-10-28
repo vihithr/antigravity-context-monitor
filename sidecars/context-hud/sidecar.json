@@ -1,0 +1,16 @@
+{
+  "command": "python",
+  "args": ["server.py"],
+  "displayName": "Context HUD",
+  "description": "Antigravity 上下文用量与压缩线实时监控面板",
+  "hasWebUi": true,
+  "uiConfig": {
+    "views": [
+      {
+        "title": "Context HUD",
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "path": "/"
+      }
+    ]
+  }
+}

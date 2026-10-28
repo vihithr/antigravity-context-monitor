@@ -1,0 +1,11 @@
+{
+  "name": "context-monitor",
+  "displayName": "Context Monitor & Compaction Alert",
+  "description": "实时监听 Antigravity 会话上下文长度与模型支持的最大上下文限制，并在接近或超出推荐压缩线时自动预警并提供压缩指导。",
+  "version": "1.0.0",
+  "suggestedPrompts": [
+    "查看当前会话上下文长度和模型上限",
+    "检查离压缩线还有多远",
+    "获取上下文优化与压缩建议"
+  ]
+}

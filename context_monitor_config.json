@@ -1,0 +1,8 @@
+{
+  "always_report": false,
+  "compaction_boundary_tokens": 262144,
+  "warning_threshold": 0.75,
+  "compaction_threshold": 0.8,
+  "critical_threshold": 0.9,
+  "language": "zh"
+}
