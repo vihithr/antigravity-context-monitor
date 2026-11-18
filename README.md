@@ -129,3 +129,13 @@ python ~/.gemini/config/plugins/context-monitor/scripts/monitor.py --format json
 ## 开源协议 (License)
 
 [MIT License](LICENSE) © 2026 vihithr
+---
+
+## English
+
+A small real-time monitor for the Google Antigravity desktop app. It shows current context usage and warns before the 256k compaction boundary, either inside the app or from the command line.
+
+- **Install (Windows):** `powershell -ExecutionPolicy Bypass -File install.ps1`
+- **Install (macOS/Linux):** `bash install.sh`
+- **CLI:** `python scripts/context_monitor.py` (the configuration section above lists paths and output formats).
+- **Uninstall:** `uninstall.ps1` / `uninstall.sh`.
