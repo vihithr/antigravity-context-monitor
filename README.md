@@ -137,5 +137,5 @@ A small real-time monitor for the Google Antigravity desktop app. It shows curre
 
 - **Install (Windows):** `powershell -ExecutionPolicy Bypass -File install.ps1`
 - **Install (macOS/Linux):** `bash install.sh`
-- **CLI:** `python scripts/context_monitor.py` (the configuration section above lists paths and output formats).
+- **CLI:** `python scripts/monitor.py --format md` (see the configuration section above for paths and output formats).
 - **Uninstall:** `uninstall.ps1` / `uninstall.sh`.
